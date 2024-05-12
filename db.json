@@ -1,0 +1,309 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Limanda",
+      "minPrice": 50,
+      "estimatedDelivery": 45,
+      "photo": "https://www.sariyeryenigun.com/images_up/foto15.jpg",
+      "rating": 4.7,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "2",
+      "name": "Pizza Hat",
+      "minPrice": 40,
+      "estimatedDelivery": 35,
+      "photo": "https://www.yeniisfikirleri.net/wp-content/uploads/2018/04/pizza-hat-cakma-markalar.jpg",
+      "rating": 4.5,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "3",
+      "name": "Lalezar Kebapçı ",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://www.hollandapostasi.com/images/haberler/2021/12/hollanda-da-yerel-mahkeme-kebapci-isim-kavgasina-son-noktayi-koydu.jpg",
+      "rating": 4.8,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "4",
+      "name": "Divan Keyifli Mekan",
+      "minPrice": 45,
+      "estimatedDelivery": 40,
+      "photo": "https://retailturkiye.com/wp-content/uploads/2019/05/Divan_Pastanesi_Vadistanbul_1_.jpg",
+      "rating": 4.6,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "5",
+      "name": "Tadım Cafe",
+      "minPrice": 55,
+      "estimatedDelivery": 55,
+      "photo": "https://media-cdn.tripadvisor.com/media/photo-s/24/1c/63/85/cafe-de-paris.jpg",
+      "rating": 4.9,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "6",
+      "name": "Ciğer Dünyası",
+      "minPrice": 55,
+      "estimatedDelivery": 40,
+      "photo": "https://medyaurfacom.teimg.com/medyaurfa-com/images/haberler/2020/05/urfa-nin-meshur-cigercisi-yeni-yerinde_384b5.jpg",
+      "rating": 4.4,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "7",
+      "name": "Şırdan Shop",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkswH-eFqp5DH2LC6Yd-bVJHUQ02UtyROZKQ&s",
+      "rating": 4.6,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "8",
+      "name": "Esnaf Lokantası",
+      "minPrice": 50,
+      "estimatedDelivery": 45,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRupXyhsediYXIO-X0nZnxJdHeCm1SpZVrPvg&s",
+      "rating": 4.7,
+      "isDeliveryFree": true
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Izgara Somon",
+      "desc": "Taze somon balığı ızgara edilmiş, yanında sebzelerle servis edilir.",
+      "category": "Deniz Ürünleri",
+      "price": 45.99,
+      "rating": 4.8,
+      "photo": "https://image.hurimg.com/i/hurriyet/75/750x422/5fd31f8a7af5070428a52804.jpg",
+      "restaurantId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Margarita Pizza",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://media.istockphoto.com/id/1168754685/tr/foto%C4%9Fraf/beyaz-arka-plan-%C3%BCzerinde-izole-peynir-%C3%BCst-g%C3%B6r%C3%BCn%C3%BCm%C3%BC-ile-pizza-margarita.jpg?s=612x612&w=0&k=20&c=lsIiAiB4agUp1l2X7g1HZJQ4IiKQbJOpxAYGhvek8ZM=",
+      "restaurantId": "2"
+    },
+    {
+      "id": "3",
+      "title": "Lagos Balığı",
+      "desc": "Marine edilmiş balık parçaları ızgaraya serilerek mangalda pişirilir.",
+      "category": "balıklar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://lh4.googleusercontent.com/proxy/cQ4RMsIbQ3XS851BT01WlkcrILU-vAZjDXZ6Tj83PlgDi1EdXGUWyJmvRzLHQAi0o3FWfoLKU9FreYaURzexzTlSBBWEpVPK",
+      "restaurantId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Kaburga",
+      "desc": "marine edilerek servis edilir.",
+      "category": "Et",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://lh4.googleusercontent.com/proxy/n_bpphwAFuln1tV2ownVutm_jmvZ2cunh9sj0hWyLspX6SAtw1xF5RJuGNlodGP8wSZFuMq2d5nxtxQJ9aizWwzdUz6ONMitmz0HXwowlV3uALcuPXjBDMOB",
+      "restaurantId": "3"
+    },
+    {
+      "id": "5",
+      "title": "Fırın Makarna",
+      "desc": "Fırında pişirilmiş makarna, mozarella peyniri ve domates sosu ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://cdn.yemek.com/mnresize/940/940/uploads/2015/02/firin-makarna-yemekcom-yeni.jpg",
+      "restaurantId": "4"
+    },
+    {
+      "id": "6",
+      "title": "Güveçte Et Sote",
+      "desc": "Taze sebzeler ve baharatlarla harmanlanmış dana eti, güveçte pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://sote.gen.tr/images/guvecte-et-sote.jpg",
+      "restaurantId": "5"
+    },
+    {
+      "id": "7",
+      "title": "Fırın Tavuk But",
+      "desc": "Baharatlarla marine edilmiş tavuk butları, fırında kızartılarak servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://cdn.yemek.com/mnresize/1250/834/uploads/2021/09/firinda-soslu-tavuk-tarifi.jpg",
+      "restaurantId": "7"
+    },
+    {
+      "id": "8",
+      "title": "Sebzeli Noodle",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Asya Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://www.ardaninmutfagi.com/wp-content/uploads/2014/11/sebzeli-noodle-632x420.jpg",
+      "restaurantId": "8"
+    },
+    {
+      "id": "9",
+      "title": "Pirzola ",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "et",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/airfryer-pirzola_11zon.webp",
+      "restaurantId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Köri Tavuk",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://cdn.kisikates.com.tr/image-cache/cache/recipe_main_image_large/https---cdn.kisikates.com.tr/recipe-media/819d8165baeb24af2ee8e226dd0355ebf2c4ff75.jpeg",
+      "restaurantId": "5"
+    },
+    {
+      "id": "11",
+      "title": "Mevsim Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://yemektarifleri24.com/wp-content/uploads/2019/12/mevsim.jpg",
+      "restaurantId": "4"
+    },
+    {
+      "id": "12",
+      "title": "Çıtır Tavuk Kanadı",
+      "desc": "Çıtır çıtır kızarmış tavuk kanatları, yanında sos ile servis edilir.",
+      "category": "Atıştırmalıklar",
+      "price": 9.99,
+      "rating": 4.4,
+      "photo": "https://unaletlokantasi.com/wp-content/uploads/2022/11/kanat.jpg",
+      "restaurantId": "2"
+    },
+    {
+      "id": "42",
+      "title": "Kavurmalı Pizza",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://antulagurme.com/uploads/p/kavurmali-pizza_1.png",
+      "restaurantId": "2"
+    },
+    {
+      "id": "53",
+      "title": "Adana Kebabı",
+      "desc": "Marine edilmiş et parçaları şişe dizilerek mangalda pişirilir.",
+      "category": "Kebaplar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://iasbh.tmgrup.com.tr/559462/800/502/0/0/429/269?u=http://i.sabah.com.tr/sbh/2016/12/21/adana-kebap-tarifi-adana-kebap-nasil-yapilir-1482306134068.jpg",
+      "restaurantId": "3"
+    },
+    {
+      "id": "24",
+      "title": "Trileçe",
+      "desc": "Yoğun süt tadıyla enfes kremasıyla, üzerine vanilyalı dondurma ile servis edilir.",
+      "category": "Tatlılar",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://cdn.shopify.com/s/files/1/1259/6441/files/trilece-tatlisi-tarifi.jpg?v=1598011389",
+      "restaurantId": "4"
+    },
+    {
+      "id": "35",
+      "title": "Karnıyarık",
+      "desc": "Fırında pişirilmiş patlıcan, kıyma,biber ve domates ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://cdn.ye-mek.net/App_UI/Img/out/650/2016/06/karniyarik-resimli-yemek-tarifi(16).jpg",
+      "restaurantId": "5"
+    },
+    {
+      "id": "76",
+      "title": "Urfa Ciğer",
+      "desc": "Taze günlük baharatlarla harmanlanmış kuzu ciğeri, ızgara pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//TurkMutfagi/20180502144204772_Urfa%20Ciger%20Kebabi.JPG?format=jpg&quality=50",
+      "restaurantId": "6"
+    },
+    {
+      "id": "57",
+      "title": "Şırdan",
+      "desc": "Baharatlarla marine edilmiş kıyma, pirinç ve kuyruk yağ  servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://cdn.yemek.com/uploads/2023/06/sirdan-nasil-yenir-shutter-1.jpg",
+      "restaurantId": "7"
+    },
+    {
+      "id": "38",
+      "title": "içli Köfte",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Mardin Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2020/12/baharatli-icli-kofte-tarifi.jpg",
+      "restaurantId": "8"
+    },
+    {
+      "id": "29",
+      "title": "Tablacı Salatası",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "Salatalar",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/05/tablaci-salatasi-one-cikan.jpg",
+      "restaurantId": "5"
+    },
+    {
+      "id": "310",
+      "title": "Piton Döner",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları ile servis edilir.",
+      "category": "Adana Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB92MNX_BKL6_adcsYxVOkEeouJe4xR73a6p1F9PXhJQ&s",
+      "restaurantId": "4"
+    },
+    {
+      "id": "111",
+      "title": "Çoban Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://somontarifi.com/wp-content/uploads/2014/11/coban-salatasi-tarifi.jpg",
+      "restaurantId": "2"
+    }
+  ],
+  "cart": [
+    {
+      "id": "fa9620cb-840d-434e-b70d-fcc1c8056bf0",
+      "productId": "57",
+      "title": "Şırdan",
+      "price": 14.99,
+      "photo": "https://cdn.yemek.com/uploads/2023/06/sirdan-nasil-yenir-shutter-1.jpg",
+      "restaurantName": "Şırdan Shop",
+      "amount": 3
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 115px;
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    border: 10px solid red;
+    border-top-color: rgba(255, 255, 255, 0.235);
+    animation: spin013151 1s linear infinite;
+    border-radius: 100%;
+  }
+  
+  @keyframes spin013151 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
